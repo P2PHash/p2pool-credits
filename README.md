@@ -1,3 +1,10 @@
+Changes:
+-------------------------
+This p2pool is forked from https://github.com/Rav3nPL/p2pool-rav.
+I've modified p2pool/networks.py and p2pool/bitcoin/networks.py for Credits.
+
+Donations are welcome: 17ySQJEB3ZGcRVhnYYAJK7FQdsiFKRTPvn
+
 Requirements:
 -------------------------
 Generic:
