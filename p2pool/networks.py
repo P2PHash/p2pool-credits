@@ -10,11 +10,11 @@ from p2pool.util import math
 nets = dict(
     Credits=math.Object(
         PARENT=networks.nets['Credits'],
-        SHARE_PERIOD=10, # seconds
+        SHARE_PERIOD=12, # seconds
         CHAIN_LENGTH=24*60*60//10, # shares
         REAL_CHAIN_LENGTH=24*60*60//10, # shares
         TARGET_LOOKBEHIND=200, # shares
-        SPREAD=45, # blocks
+        SPREAD=30, # blocks
         IDENTIFIER='1a51e44306bb9bcf'.decode('hex'),
         PREFIX='6cef97eb4a9a31cf'.decode('hex'),
         P2P_PORT=22019,
